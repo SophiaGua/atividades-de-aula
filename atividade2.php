@@ -14,7 +14,7 @@
     echo "<br> y=$y";
     echo "<br> x+y= ".$x + $y;
     print("<br> teste");
-    print("");
+    print("<br> utilizei o comando print");
 ?>
 
 </body>
