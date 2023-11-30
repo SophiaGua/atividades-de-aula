@@ -13,13 +13,13 @@
         $senha = $_POST["senha"]; 
 
         if($nome == "adm" and $senha == "123"){
-            header("Location: "."trabsim.php");
+            header("Location: "."inicialadm.php");
         }elseif($nome == "Mariana" and $senha == "123"){
-            header("Location: "."index3.php");
+            header("Location: "."inicialusu.php");
         }elseif($nome == "Bibliotecario" and $senha == "123"){
-            header("Location: "."casa.php");
+            header("Location: "."inicialbiblio.php");
         }else{
-            header("Location: "."index2.php");
+            print ("<p> senha incoreta, tente novamente!");
         }
     ?>
     
