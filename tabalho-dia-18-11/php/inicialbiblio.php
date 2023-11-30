@@ -6,11 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>pagina inicial </h1>
-    
-    <?php
-    
-    ?>
-    
+    <h1>O GAS</h1>
 </body>
 </html>
